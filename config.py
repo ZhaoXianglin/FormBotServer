@@ -1,10 +1,13 @@
 import pymysql
 
 DB_CONFIG = {
+    # "host": "47.242.140.70",
     "host": "127.0.0.1",
-    "port": 8889,
+    "port": 3306,
+    # "port": 8889,
     "user": "root",
-    "passwd": "root",
+    # "passwd": "5572337445",
+    "passwd": "",
     "db": "formbot",
     "charset": "utf8"
 }
